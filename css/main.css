@@ -6781,12 +6781,13 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-style: normal;
-  background: pink; }
+  background: white; }
 
 .navbar {
+  font-family: 'BebasNeueRegular', sans-serif;
   font-weight: 100;
   position: absolute;
   top: 0;
@@ -6802,7 +6803,7 @@ body {
     border-bottom: 1px solid white; }
 
 #mainSection {
-  background: url(../images/main_section.jpg) bottom center/cover no-repeat;
+  background: url(../images/nong-vang-kdVGvy2dunA-unsplash.jpg) bottom center/cover no-repeat;
   min-height: 750px;
   position: relative; }
   #mainSection #main {
