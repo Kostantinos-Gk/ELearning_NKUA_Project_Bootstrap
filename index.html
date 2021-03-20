@@ -8,13 +8,94 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-    <title>Aurora Grove</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bebas" type="text/css"/>
+    <!--ADD CUSTOM BOOTSTRAP ELEMENTS-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Clear Horizon</title>
 </head>
 <body>
-   
+
+    <!--FIRST CONSTRUCT MAIN NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <a href="#" class="navbar-brand"><h3 class="mb-0">Clear Orizon</h3></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#myMainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Event</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Donate</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                <li class="nav-item ml-3-md">
+                    <!--ADD MULTILANGUGE BUTTON-->
+                        <button class="btn btn-dark btn-sm dropdown-toggle" type="button" id="langDropdown" data-toggle="dropdown" aria-expanded="false">
+                            <img src="/images/flags/gb.svg" class="mr-0 "alt="Language " title="Language " width="70" height="30">
+                            &nbsp;                   
+                            <i class="glyphicon glyphicon-menu-down"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right bg-dark" role="menu" aria-labelledby="langDropdown">
+                            <li class="mb-2" role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">
+                                    <img src="/images/flags/gr.svg" title="GREEK"  width="50" height="30" class="d-inline-block " alt="">
+                                    <span class="ml-3 text-white">GREEK</span></a>
+                            </li>
+                            <li role="presentation">
+                                <a role="menuitem" tabindex="-1" href="#">
+                                    <img src="images/flags/gb.svg"  width="50" height="30" class="d-inline-block " alt="">
+                                    <span class="ml-3 text-white">ENGLISH</span></a>
+                                    
+                            </li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+      <!--ADD MAIN SECTION-->
+      <section id="mainSection" class="d-flex justify-content-center align-items-center">
+        <div id="fade"></div>
+            <div id="main" class="container text-white text-center">
+                <h3 class="display-5">Lorem, ipsum.</h3>
+                <h1 class="display-1">CLEAR HORIZON</h1>
+                <p class="lead d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, excepturi.</p>
+                <button id="act_btn" class="btn btn-lg btn-primary px-5">ACT NOW</button>
+            </div>
+      </section>
+      <!--SEVEN SECTION CONTACT SECTION-->
+    <section id="newsletter" class="bg-dark">
+        <div class="container text-white text-center py-5">
+            <p class="lead">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</p>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                    <form action="" class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your Email" id="">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary">Join Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--EIGHT SECTION FOOTER / NAV-->
+    <section id="footer" class="bg-secondary p-3">
+        <ul class="nav text-center justify-content-center flex-column flex-sm-row">
+            <li class="nav-item"><a href="#" class="nav-link text-white">HOME</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white">ABOUT US</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white">EVENT</a></li>
+            <li class="nav-item"><a href="#n" class="nav-link text-white">DONATE</a></li>
+            <li class="nav-item"><a href="#n" class="nav-link text-white">CONTACT US</a></li>
+        </ul>
+        <p class="lead text-center">Copyright &copy;2021 by Me</p>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
+    <!--ADD JS BOOTSTRAP FILE FOR JS FUNCTIONALITY-->
+     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>   
 </body>
 </html>

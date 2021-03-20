@@ -1,0 +1,8 @@
+//overide default colors
+$theme-colors:(
+    "dark":#1f1f1f,
+    "primary":#36b3a8
+);
+
+//import bootstrap
+@import "../bootstrap//scss/bootstrap";
