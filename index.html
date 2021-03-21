@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bebas" type="text/css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+   
     <!--ADD CUSTOM BOOTSTRAP ELEMENTS-->
     <link rel="stylesheet" href="css/main.css">
     <title>Clear Horizon</title>
@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="myMainNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Event</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Donate</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
@@ -63,41 +63,88 @@
                 <button id="act_btn" class="btn btn-lg btn-primary px-5">ACT NOW</button>
             </div>
       </section>
-
+      <!--SECOND SECTION-->
       <section>
-            <div class="container text-center">
+            <div class="container text-center mt-5">
                 <h2>THE TIME TO ACT, IS NOW...</h2>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="images/peak.jpg" alt="" width="170" height="250">
+                            <img src="images/peak.jpg" alt="peak image" width="200" height="250">
                             <h3>Big Mountains needs big attention</h3>
                             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis officia, quisquam vitae rerum consequuntur repellat.</p>
                         </div>
                         <div class="col-md-4">
-                            <img src="images/sea_buttom.jpg" alt="" width="170" height="250">
+                            <img src="images/sea_buttom.jpg" alt="sea bottom image" width="200" height="250">
                             <h3>Save Blue, before change color</h3>
                             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, omnis eveniet? Explicabo voluptatibus non quis nobis consequuntur quibusdam aperiam aliquid!</p>
                         </div>
                         <div class="col-md-4">
-                            <img src="images/trail_one.jpg" alt="" width="170" height="250">
+                            <img src="images/trail_one.jpg" alt="forest trail image" width="200" height="250">
                             <h3>Respect Trails, respect Nature</h3>
                             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quaerat consequuntur laboriosam ducimus.</p>
                         </div>
                     </div>
             </div>
+    </section>
+    <!--CAROUSEL SECTION-->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div id="mainCarousel"class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/carouselimages/brian-yurasits-y8k-dMPNWNI-unsplash.jpg" alt="coffee_image" class="d-block w-100" height="390" width="250">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carouselimages/mari-partyka-PLzgu9O7xag-unsplash.jpg" alt="caribou_image" class="d-block w-100" height="390" width="250">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carouselimages/thomas-millot-q5jKHtV4hWc-unsplash.jpg" alt="fire_image" class="d-block w-100" height="390" width="250">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carouselimages/v2osk-5aTRlZYVCMI-unsplash.jpg" alt="trees_image" class="d-block w-100" height="390" width="250">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/carouselimages/antoine-giret-7_TSzqJms4w-unsplash.jpg" alt="trees_image" class="d-block w-100" height="390" width="250">
+                            </div>
+                        </div>
+                        <a href="#mainCarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                            <span class="carousel-control-prev-icon" aria-hidden="true">
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </a>
+                        <a href="#mainCarousel" class="carousel-control-next" data-slide="next" role="button">
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h3>CAMPING MADE COZY</h3>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dolores voluptas sit. Quia harum debitis fugit!
+                    Veritatis a vero in laborum vel, explicabo tenetur repudiandae modi at dolorum architecto rem sequi suscipit maxime
+                    unde similique, est impedit vitae nihil exercitationem?</p>
+                    <a href="">See for yourself <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      </section>
-      <!--SEVEN SECTION CONTACT SECTION-->
-    <section id="newsletter" class="bg-dark">
-        <div class="container text-white text-center py-5">
-            <p class="lead">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</p>
+
+
+    <!--SECTION CONTACT SECTION-->
+    <section id="newsletter" class="bg-dark mt-5">
+        <div class="container text-white text-center py-3">
+            <p class="lead">Subscribe to Newsletter </p>
             <div class="row justify-content-center">
                 <div class="col-10 col-sm-8 col-md-6 col-lg-4">
                     <form action="" class="form-inline">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Your Email" id="">
                             <div class="input-group-append">
-                                <button class="btn btn-primary">Join Now</button>
+                                <button class="btn btn-primary">SUBSCRIBE</button>
                             </div>
                         </div>
                     </form>
@@ -109,6 +156,7 @@
             <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-twitter" style="font-size: 200%;"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-instagram" style="font-size: 200%;"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-viber" style="font-size: 200%;"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-telegram-plane" style="font-size: 200%;"></i></a></li>
         </ul>
     </section>
     <!--EIGHT SECTION FOOTER / NAV-->
@@ -125,6 +173,7 @@
             <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-twitter"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-instagram"></i></a></li>
             <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-viber"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-telegram-plane"></i></a></li>
         </ul>
         <p class="lead text-center">Copyright &copy;2021 by Me</p>
     </section>
