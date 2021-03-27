@@ -1,11 +1,11 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway','Roboto Condensed' , sans-serif;
   font-weight: normal;
   font-style: normal;
   background: white; }
 
 .navbar {
-  font-family: 'Gentium Basic', sans-serif;
+  font-family: 'Gentium Basic','Roboto Condensed', sans-serif;
   font-weight: 100;
   position: absolute;
   top: 0;
@@ -27,7 +27,7 @@ body {
   #mainSection #main {
     z-index: 2; }
   #mainSection h1 {
-    font-family: "Questrial",sans-serif;
+    font-family: "Questrial", 'Roboto Condensed',sans-serif;
     line-height: 1; }
   #mainSection #act_btn {
     font-size: 1.6rem;
