@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gentium+Basic" />
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bebas" type="text/css"/>
    
     <!--ADD CUSTOM BOOTSTRAP ELEMENTS-->
@@ -70,7 +71,7 @@
                         <div class="hovereffect">
                             <img class="img-responsive" height="800"  width="600" src="images/donate_images/daniel-diesenreither-z4yzSsH5EAo-unsplash.jpg" alt="">
                             <div class="overlay">
-                               <h2>Hover effect 1</h2>
+                               <h2>BROWN BEAR OF PINDUS</h2>
                                <a class="info" href="https://www.arcturos.gr">READ MORE</a>
                             </div>
                         </div>
@@ -92,7 +93,7 @@
                         <div class="hovereffect">
                             <img class="img-responsive" height="800" width="600" src="images/donate_images/abner-abiu-castillo-diaz-TgBOP8oRQBI-unsplash.jpg" alt="">
                             <div class="overlay">
-                               <h2>Hover effect 1</h2>
+                               <h2>SEA TURTLE OF ZAKINTHOS</h2>
                                <a class="info" href="https://www.archelon.gr/">READ MORE</a>
                             </div>
                         </div>
@@ -114,7 +115,7 @@
                         <div class="hovereffect">
                             <img class="img-responsive" height="800" width="600" src="images/donate_images/kevin-li-_0ZWw5BKXCc-unsplash.jpg" alt="">
                             <div class="overlay">
-                               <h2>Hover effect 1</h2>
+                               <h2>MONK SEAL OF ALONISOS</h2>
                                <a class="info" href="https://el.mom.gr/">READ MORE</a>
                             </div>
                         </div>
@@ -176,65 +177,84 @@
         </div>
     </section>
     <!--DONATE MODAL-->
-    <div class="modal" id="eventDonateModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
+   
+        <div class="modal" id="eventDonateModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header bg-success text-white">
                     <h5 class="modal-title">Make your Donation</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                    <div class="modal-body">
-                        <p>Please fill out the form below and we'll get back to you as soon as possible</p>
-                        <form action="">
-                            <div class="form-group">
-                                <label for="">Name :</label>
-                                <input type="text" name="" id="name" class="form-control" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Email Address :</label>
-                                <input type="email" name="" id="email" class="form-control" placeholder="name@example.com">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="organization">Choose Organization</label>
-                                <select class="form-control" id="adults">
-                                    <option value="1">ARCTUROS</option>
-                                    <option value="2">ARCHELON</option>
-                                    <option value="3">M.O.M.</option>
-                                </select>
-                            </div>
-                            <h5 class="modal-subtitle">Bank/Credit Card</h5>
-                            <div class="form-group justify-content-between">
-                                <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-visa fa-2x"></i></label>
-                                <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-mastercard fa-2x"></i></label>
-                                <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-paypal fa-2x"></i></label> 
-                                <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-amex fa-2x"></i></label>
-                                <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-diners-club fa-2x"></i></label>
-                            </div>
-                        </form>
+                <div class="modal-body">
+                <div class="row">  
+                <section class="col-12">
+                    <form>
+                        <fieldset class="col-12">
+                            <legend>
+                            Your personal info
+                            </legend>
+                            <label>Your Name</label>
+                            <input type="string" class="form-control">
+                            <label>Your email</label>
+                            <input type="email" class="form-control">
+                            <label>Address</label>
+                            <input type="email" class="form-control">
+                            <label>City, State, Zip Code</label>
+                            <input type="email" class="form-control">
+                            </fieldset>
+                            <fieldset class="col-12">
+                    <legend>
+                      Credit Card Information
+                    </legend>
+                    <label for="card-number">Donation Amount</label>
+                    <div class="input-group"><input placeholder="10.0" pattern="[0-9]*" type="text" class="form-control card-number" id="card-number">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-euro-sign"></i></div>
+                        </div>
+                      </div>
+                    <label for="card-number">Credit Card Number</label>
+                    <input placeholder="1234 5678 9012 3456" pattern="[0-9]*" type="text" class="form-control card-number" id="deposit">
+                    <label for="card-number">Expiration Date</label>
+                    <input placeholder="MM/YY" pattern="[0-9]*" type="text" class="form-control card-expiration" id="card-expiration">
+                    <label for="card-number">CVV Number</label>
+                    <input placeholder="CVV" pattern="[0-9]*" type="text" class="form-control card-cvv" id="card-cvv">
+                    <label for="card-number">Billing Zip Code</label>
+                    <input placeholder="ZIP" pattern="[0-9]*" type="text" class="form-control card-zip" id="card-zip">
+                    <label for="card-number">Credit Card Type</label>
+                    <div class="form-group">
+                        <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-visa fa-2x"></i></label>
+                        <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-mastercard fa-2x"></i></label>
+                        <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-paypal fa-2x"></i></label> 
+                        <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-amex fa-2x"></i></label>
+                        <label class="radio-inline"><input type="radio" name="optradio"><i class="fab fa-cc-diners-club fa-2x"></i></label>
                     </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-success">PayMent</button>
-                        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
+                
+                </fieldset>
+                </form>
+              </section>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-dismiss="modal">BACK</button>
+            <button class="btn btn-success">CONTINUE</button>
             </div>
         </div>
-
-
+        </div>
+    </div>
+          
 
 
 
     <!--EIGHT SECTION FOOTER / NAV-->
     <section id="footer" class="bg-primary p-3 ">
         <ul class="nav text-center justify-content-center flex-column flex-md-row">
-            <li class="nav-item"><a href="#" class="nav-link text-white">HOME</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link text-white">HOME</a></li>
             <li class="nav-item"><a href="about.html" class="nav-link text-white">ABOUT US</a></li>
             <li class="nav-item"><a href="events.html" class="nav-link text-white">EVENT</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link text-white">DONATE</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white">CONTACT US</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-white">DONATE</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link text-white">CONTACT US</a></li>
         </ul>
         <ul class="nav text-center justify-content-center">
             <li class="nav-item"><a href="#" class="nav-link text-white"><i class="fab fa-facebook-f"></i></a></li>

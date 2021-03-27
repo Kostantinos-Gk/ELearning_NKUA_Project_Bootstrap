@@ -5,7 +5,7 @@ body {
   background: white; }
 
 .navbar {
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family: 'Gentium Basic', sans-serif;
   font-weight: 100;
   position: absolute;
   top: 0;
@@ -21,7 +21,7 @@ body {
     border-bottom: 1px solid white; }
 
 #mainSection {
-  background: url(../images/nong-vang-kdVGvy2dunA-unsplash.jpg) bottom center/cover no-repeat;
+  background: url(../images/stephen-coetsee-_dev43yK9wI-unsplash.jpg) bottom center/cover no-repeat;
   min-height: 750px;
   position: relative; }
   #mainSection #main {
